@@ -1,8 +1,6 @@
 # Guice Integration with Resteasy and Jetty
 
-# Guice Integration
-
-This project is a simple example showing the guice integration.
+This project is a simple example showing the guice integration. This example was corrected and based from [this example]https://github.com/resteasy/Resteasy/tree/3.0.16.Final/jaxrs/examples/guice-hello).
 
 ## System Requirements:
 
