@@ -18,4 +18,4 @@ This will build a WAR
 
    mvn jetty:run
 
-And use this example URL to access the resource: http://localhost:9095/hello/world
+And use this example URL to access the resource: [http://localhost:9095/hello/world](http://localhost:9095/hello/world)
