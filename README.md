@@ -10,7 +10,7 @@ Maven 2.0.9 or higher
 
  1. In root directoy
 
-    mvn clean install
+        mvn clean install
 
 This will build a WAR
 
