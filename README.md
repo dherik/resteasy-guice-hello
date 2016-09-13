@@ -12,4 +12,10 @@ Maven 2.0.9 or higher
     
     mvn clean install
 
-This will build a WAR and run it with embedded Jetty
+This will build a WAR
+
+# Run it with embedded Jetty
+
+   mvn jetty:run
+
+And use this example URL to access the resource: http://localhost:9095/hello/world
