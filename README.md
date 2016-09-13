@@ -10,6 +10,10 @@ Maven 2.0.9 or higher
 
  1. In root directoy
     
-    mvn clean install
+       mvn clean install
 
-This will build a WAR and run it with embedded Jetty
+ 2. Run it with embedded Jetty
+
+       mvn jetty:run
+ 
+ 3. Access the url [http://localhost:9095/v2/hello/world](http://localhost:9095/v2/hello/world) or [http://localhost:9095/v2/user/john](http://localhost:9095/v2/user/john)
