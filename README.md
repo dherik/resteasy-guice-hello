@@ -14,7 +14,7 @@ Maven 2.0.9 or higher
 
 This will build a WAR
 
-# Run it with embedded Jetty
+## Run it with embedded Jetty:
 
     mvn jetty:run
 
