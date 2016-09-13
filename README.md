@@ -16,4 +16,4 @@ Maven 2.0.9 or higher
 
        mvn jetty:run
  
- 3. Access the url [http://localhost:9095/v2/hello/world](http://localhost:9095/v2/hello/world) or [http://localhost:9095/v2/user/john](http://localhost:9095/v2/user/john)
+ 3. Access the url [http://localhost:9095/v1/hello/world](http://localhost:9095/v1/hello/world), [http://localhost:9095/v1/user/john](http://localhost:9095/v1/user/john) (change to `/v2/` too)
