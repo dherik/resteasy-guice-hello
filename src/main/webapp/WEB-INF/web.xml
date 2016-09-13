@@ -12,15 +12,44 @@
     </listener>
 
     <servlet>
-        <servlet-name>Resteasy</servlet-name>
+        <servlet-name>resteasy-servlet-v1</servlet-name>
         <servlet-class>
             org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher
         </servlet-class>
+        <init-param>
+                <param-name>javax.ws.rs.Application</param-name>
+                <param-value>org.jboss.resteasy.ApplicationV1RS</param-value>
+        </init-param>
+        <init-param>
+                <param-name>resteasy.servlet.mapping.prefix</param-name>
+                <param-value>/v1</param-value>
+        </init-param>
     </servlet>
-
+    
     <servlet-mapping>
-        <servlet-name>Resteasy</servlet-name>
-        <url-pattern>/*</url-pattern>
+        <servlet-name>resteasy-servlet-v1</servlet-name>
+        <url-pattern>/v1/*</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>resteasy-servlet-v2</servlet-name>
+        <servlet-class>
+            org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher
+        </servlet-class>
+        <init-param>
+                <param-name>javax.ws.rs.Application</param-name>
+                <param-value>org.jboss.resteasy.ApplicationV2RS</param-value>
+        </init-param>
+        <init-param>
+                <param-name>resteasy.servlet.mapping.prefix</param-name>
+                <param-value>/v2</param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>resteasy-servlet-v2</servlet-name>
+        <url-pattern>/v2/*</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>
