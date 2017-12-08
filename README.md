@@ -4,7 +4,8 @@ This project is a simple example showing the guice integration. This example was
 
 ## System Requirements:
 
-Maven 2.0.9 or higher
+ - Maven 2.0.9 or higher
+ - Java 1.8
 
 ## Building the project:
 
